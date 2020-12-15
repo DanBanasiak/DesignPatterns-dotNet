@@ -14,21 +14,12 @@ namespace AbstractFactory
 			var input = Console.ReadLine();
 
 			int.TryParse(input, out var result);
-			RecipeFactory factory;
-
-			switch (result)
+			RecipeFactory factory = result switch
 			{
-				case 1:
-					factory = new McDonaldsFactory();
-					break;
-				case 2:
-					factory = new KfcFactory();
-					break;
-				default:
-					factory = new McDonaldsFactory();
-					break;
-			}
-
+				1 => new McDonaldsFactory(),
+				2 => new KfcFactory(),
+				_ => new McDonaldsFactory(),
+			};
 			Sandwich sandwich = factory.CreateSandwich();
 			Dessert dessert = factory.CreateDessert();
 
