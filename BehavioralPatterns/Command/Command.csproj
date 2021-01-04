@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ConcreteCommand\" />
+    <Compile Remove="ConcreteCommand\**" />
+    <EmbeddedResource Remove="ConcreteCommand\**" />
+    <None Remove="ConcreteCommand\**" />
   </ItemGroup>
 
 </Project>

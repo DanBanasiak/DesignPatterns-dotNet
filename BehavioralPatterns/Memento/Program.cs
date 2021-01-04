@@ -4,11 +4,6 @@ namespace Memento
 {
 	class Program
 	{
-		/// <summary>
-		/// In the Memento pattern, we need to capture and externalize an object's state so that the object can be
-		/// restored to that state at a later time.  A good example of this is undo/redo operations.
-		/// </summary>
-		/// <param name="args"></param>
 		static void Main(string[] args)
 		{
 			//Here's a new supplier for our restaurant

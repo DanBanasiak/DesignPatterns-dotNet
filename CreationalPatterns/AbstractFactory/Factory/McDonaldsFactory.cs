@@ -5,14 +5,7 @@ namespace AbstractFactory.Factory
 {
 	class McDonaldsFactory : RecipeFactory
 	{
-		public override Sandwich CreateSandwich()
-		{
-			return new BaconBBQBurger();
-		}
-
-		public override Dessert CreateDessert()
-		{
-			return new McFlurry();
-		}
+		public override Sandwich CreateSandwich() => new BaconBBQBurger();
+		public override Dessert CreateDessert() => new McFlurry();
 	}
 }

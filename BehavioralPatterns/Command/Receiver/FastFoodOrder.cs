@@ -3,9 +3,6 @@ using System.Collections.Generic;
 
 namespace Command
 {
-	/// <summary>
-	/// The Receiver
-	/// </summary>
 	public class FastFoodOrder
 	{
 		public List<MenuItem> currentItems { get; set; }

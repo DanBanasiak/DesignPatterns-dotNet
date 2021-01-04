@@ -1,8 +1,5 @@
 ﻿namespace Memento
 {
-	/// <summary>
-	/// The Memento class
-	/// </summary>
 	class FoodSupplierMemento
 	{
 		public string Name { get; set; }

@@ -1,8 +1,5 @@
 ﻿namespace Command
 {
-	/// <summary>
-	/// The Invoker class
-	/// </summary>
 	public class Patron
 	{
 		private OrderCommand _orderCommand;

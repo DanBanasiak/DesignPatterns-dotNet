@@ -2,11 +2,11 @@
 {
 	abstract class Approver
 	{
-		protected Approver supervisor;
+		protected Approver _supervisor;
 
 		public void SetSupervisor(Approver supervisor)
 		{
-			this.supervisor = supervisor;
+			_supervisor = supervisor;
 		}
 
 		public abstract void ProcessRequest(PurchaseOrder purchase);

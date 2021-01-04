@@ -2,9 +2,6 @@
 
 namespace Memento
 {
-	/// <summary>
-	/// The Originator class, which is the class for which we want to save Mementos for its state.
-	/// </summary>
 	class FoodSupplier
 	{
 		private string _name;

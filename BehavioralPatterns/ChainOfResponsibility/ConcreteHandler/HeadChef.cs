@@ -9,9 +9,9 @@ namespace ChainOfResponsibility
 			{
 				Console.WriteLine("{0} approved purchase request #{1}", GetType().Name, purchase.RequestNumber);
 			}
-			else if (supervisor != null)
+			else if (_supervisor != null)
 			{
-				supervisor.ProcessRequest(purchase);
+				_supervisor.ProcessRequest(purchase);
 			}
 		}
 	}

@@ -11,7 +11,7 @@ namespace Mediator
 		public void Send(string message)
 		{
 			Console.WriteLine("North Concession Stand sends message: " + message);
-			mediator.SendMessage(message, this);
+			_mediator.SendMessage(message, this);
 		}
 
 		public void Notify(string message)

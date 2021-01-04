@@ -5,8 +5,8 @@ namespace Decorator
 {
 	class Pasta : RestaurantDish
 	{
-		private string _pastaType;
-		private string _sauce;
+		private readonly string _pastaType;
+		private readonly string _sauce;
 
 		public Pasta(string pastaType, string sauce)
 		{

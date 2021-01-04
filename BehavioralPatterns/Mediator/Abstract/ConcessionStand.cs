@@ -2,11 +2,11 @@
 {
 	abstract class ConcessionStand
 	{
-		protected IMediator mediator;
+		protected IMediator _mediator;
 
 		public ConcessionStand(IMediator mediator)
 		{
-			this.mediator = mediator;
+			_mediator = mediator;
 		}
 	}
 }

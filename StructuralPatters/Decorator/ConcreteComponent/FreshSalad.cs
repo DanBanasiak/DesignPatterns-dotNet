@@ -5,9 +5,9 @@ namespace Decorator
 {
 	class FreshSalad : RestaurantDish
 	{
-		private string _greens;
-		private string _cheese; //I am going to use this pun everywhere I can
-		private string _dressing;
+		private readonly string _greens;
+		private readonly string _cheese; //I am going to use this pun everywhere I can
+		private readonly string _dressing;
 
 		public FreshSalad(string greens, string cheese, string dressing)
 		{

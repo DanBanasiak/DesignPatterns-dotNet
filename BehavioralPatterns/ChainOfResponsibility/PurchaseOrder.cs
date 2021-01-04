@@ -3,6 +3,11 @@ namespace ChainOfResponsibility
 {
 	class PurchaseOrder
 	{
+		public int RequestNumber { get; set; }
+		public double Amount { get; set; }
+		public double Price { get; set; }
+		public string Name { get; set; }
+
 		public PurchaseOrder(int number, double amount, double price, string name)
 		{
 			RequestNumber = number;
@@ -12,10 +17,5 @@ namespace ChainOfResponsibility
 
 			Console.WriteLine("Purchase request for " + name + " (" + amount + " for $" + price.ToString() + ") has been submitted.");
 		}
-
-		public int RequestNumber { get; set; }
-		public double Amount { get; set; }
-		public double Price { get; set; }
-		public string Name { get; set; }
 	}
 }

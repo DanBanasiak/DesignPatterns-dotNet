@@ -4,11 +4,6 @@ namespace Command
 {
 	class Program
 	{
-		/// <summary>
-		/// The Command pattern encapsulates commands as objects, allowing them to be executed by a Receiver class and kicked off
-		/// by an Invoker object.  This enables more complex architectures such as CQRS (Command/Query Responsibility Segregation).
-		/// </summary>
-		/// <param name="args"></param>
 		static void Main(string[] args)
 		{
 			Patron patron = new Patron();

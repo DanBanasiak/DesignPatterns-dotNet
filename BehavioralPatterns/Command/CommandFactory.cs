@@ -2,7 +2,6 @@
 {
 	public class CommandFactory
 	{
-		//Factory method
 		public OrderCommand GetCommand(int commandOption)
 		{
 			switch (commandOption)
