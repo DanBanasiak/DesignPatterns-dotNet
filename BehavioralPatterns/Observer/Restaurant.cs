@@ -2,13 +2,10 @@
 
 namespace Observer
 {
-	/// <summary>
-	/// The ConcreteObserver class
-	/// </summary>
 	class Restaurant : IRestaurant
 	{
-		private string _name;
-		private double _purchaseThreshold;
+		private readonly string _name;
+		private readonly double _purchaseThreshold;
 
 		public Restaurant(string name, double purchaseThreshold)
 		{

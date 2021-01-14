@@ -4,12 +4,6 @@ namespace Decorator
 {
 	class Program
 	{
-		/// <summary>
-		/// We run a farm-fresh restaurant.
-		/// That means that we can only make dishes which we have the ingredients for.
-		/// Sometimes we run out of ingredients, so we can't make those dishes.
-		/// </summary>
-		/// <param name="args"></param>
 		static void Main(string[] args)
 		{
 			//Step 1: Define some dishes, and how many of each we can make

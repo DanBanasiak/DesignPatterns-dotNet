@@ -1,8 +1,5 @@
 ﻿namespace State
 {
-	/// <summary>
-	/// A Concrete State class
-	/// </summary>
 	class Medium : State
 	{
 		public Medium(State state) : this(state.CurrentTemp, state.Steak)

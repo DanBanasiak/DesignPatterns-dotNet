@@ -42,26 +42,26 @@
 
 		public int GetCaloriesPerOunce(string meat)
 		{
-			switch (meat.ToLower())
+			return (meat.ToLower()) switch
 			{
-				case "beef": return 71;
-				case "pork": return 69;
-				case "chicken": return 66;
-				case "turkey": return 38;
-				default: return 0;
-			}
+				"beef" => 71,
+				"pork" => 69,
+				"chicken" => 66,
+				"turkey" => 38,
+				_ => 0,
+			};
 		}
 
 		public double GetProteinPerOunce(string meat)
 		{
-			switch (meat.ToLower())
+			return (meat.ToLower()) switch
 			{
-				case "beef": return 7.33f;
-				case "pork": return 7.67f;
-				case "chicken": return 8.57f;
-				case "turkey": return 8.5f;
-				default: return 0d;
-			}
+				"beef" => 7.33f,
+				"pork" => 7.67f,
+				"chicken" => 8.57f,
+				"turkey" => 8.5f,
+				_ => 0d,
+			};
 		}
 	}
 }

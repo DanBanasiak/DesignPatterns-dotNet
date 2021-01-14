@@ -1,8 +1,5 @@
 ﻿namespace State
 {
-	/// <summary>
-	/// A Concrete State class.
-	/// </summary>
 	class Uncooked : State
 	{
 		public Uncooked(State state)

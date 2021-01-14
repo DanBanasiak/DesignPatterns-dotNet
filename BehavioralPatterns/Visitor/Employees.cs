@@ -3,9 +3,6 @@ using System.Collections.Generic;
 
 namespace Visitor
 {
-	/// <summary>
-	/// The Object Structure class, which is a collection of Concrete Elements.  This could be implemented using another pattern such as Composite.
-	/// </summary>
 	class Employees
 	{
 		private List<Employee> _employees = new List<Employee>();

@@ -4,10 +4,6 @@ using System.Collections.Generic;
 
 namespace Decorator
 {
-
-	/// <summary>
-	/// A concrete Decorator. This class will impart "responsibilities" onto the dishes (e.g. whether or not those dishes have enough ingredients left to order them)
-	/// </summary>
 	class Available : Decorator
 	{
 		public int NumAvailable { get; set; } //How many can we make?

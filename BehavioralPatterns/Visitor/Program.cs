@@ -4,13 +4,6 @@ namespace Visitor
 {
 	class Program
 	{
-		/// <summary>
-		/// The Visitor pattern represents an operation to be performed on the elements of an object structure.
-		/// Whereas Strategy exposes items to a standardized interface, Visitor details a mechanism by which
-		/// objects can accept a reference to another object (the visitor) which exposes an interface that the target
-		/// can call upon itself.
-		/// </summary>
-		/// <param name="args"></param>
 		static void Main(string[] args)
 		{
 			// Who are my employees?

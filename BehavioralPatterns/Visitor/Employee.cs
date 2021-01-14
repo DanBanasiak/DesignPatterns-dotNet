@@ -1,8 +1,5 @@
 ﻿namespace Visitor
 {
-	/// <summary>
-	/// The Concrete Element class, which implements all operations defined by the Element.
-	/// </summary>
 	class Employee : Element
 	{
 		public string Name { get; set; }

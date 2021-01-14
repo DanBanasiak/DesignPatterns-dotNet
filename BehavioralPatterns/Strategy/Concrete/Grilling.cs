@@ -2,9 +2,6 @@
 
 namespace Strategy
 {
-	/// <summary>
-	/// A Concrete Strategy class
-	/// </summary>
 	class Grilling : AbstractCook
 	{
 		public override void Cook(string food)

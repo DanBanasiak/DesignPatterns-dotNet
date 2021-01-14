@@ -3,9 +3,6 @@ using System.Collections.Generic;
 
 namespace Observer
 {
-	/// <summary>
-	/// The Subject abstract class
-	/// </summary>
 	abstract class Veggies
 	{
 		private double _pricePerPound;

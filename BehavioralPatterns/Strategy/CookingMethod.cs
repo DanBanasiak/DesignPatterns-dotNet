@@ -2,9 +2,6 @@
 
 namespace Strategy
 {
-	/// <summary>
-	/// The Context class, which maintains a reference to the chosen Strategy.
-	/// </summary>
 	class CookingMethod
 	{
 		private string Food;

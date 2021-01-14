@@ -2,9 +2,6 @@
 
 namespace Visitor
 {
-	/// <summary>
-	/// A Concrete Visitor class
-	/// </summary>
 	class PaidTimeOffVisitor : IVisitor
 	{
 		public void Visit(Element element)

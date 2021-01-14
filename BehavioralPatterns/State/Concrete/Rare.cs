@@ -1,8 +1,5 @@
 ﻿namespace State
 {
-	/// <summary>
-	/// A 'ConcreteState' class.
-	/// </summary>
 	class Rare : State
 	{
 		public Rare(State state) : this(state.CurrentTemp, state.Steak)
